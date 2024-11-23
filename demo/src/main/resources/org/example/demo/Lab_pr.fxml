@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="595.0" prefWidth="819.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo.DesignController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="595.0" prefWidth="819.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+
+    <VBox layoutX="34.0" layoutY="38.0" prefHeight="200.0" prefWidth="222.0" spacing="10" style="-fx-background-color: #ADD8E6; -fx-background-radius: 5px;">
+        <Label prefHeight="18.0" prefWidth="103.0" style="-fx-background-color: #00CED1; -fx-background-radius: 5px;" text="Кількість кас">
+         <font>
+            <Font name="Century" size="14.0" />
+         </font></Label>
+        <TextField fx:id="cashierCountField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="50.0" style="-fx-background-color: #3498db; -fx-background-radius: 5px;" />
+        <Label prefHeight="18.0" prefWidth="133.0" style="-fx-background-color: #00CED1; -fx-background-radius: 5px;" text="Кількість кухарів">
+         <font>
+            <Font name="Century" size="14.0" />
+         </font></Label>
+        <TextField fx:id="chefCountField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="50.0" style="-fx-background-color: #3498db; -fx-background-radius: 5px;">
+            <VBox.margin>
+                <Insets />
+            </VBox.margin>
+        </TextField>
+        <Label style="-fx-background-color: #00CED1; -fx-background-radius: 5px;" text="Швидкість">
+         <font>
+            <Font name="Century" size="14.0" />
+         </font></Label>
+        <ComboBox fx:id="comboBox" prefWidth="150">
+            <items>
+                <FXCollections fx:id="speedField" fx:factory="observableArrayList">
+                    <String fx:value="Максимальна" />
+                    <String fx:value="Середня" />
+                    <String fx:value="Мінімальна" />
+                </FXCollections>
+            </items>
+        </ComboBox>
+        <Button fx:id="startButton" mnemonicParsing="false" onAction="#startSimulation" prefHeight="30.0" prefWidth="186.0" style="-fx-background-radius: 15px; -fx-background-color: #228B22;" text="Почати симуляцію">
+            <font>
+                <Font name="Century" size="14.0" />
+            </font>
+        </Button>
+
+    </VBox>
+    <TableView layoutX="270.0" layoutY="38.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="230.0" prefWidth="531.0" style="-fx-background-color: #FFDAB9; -fx-border-color: #36454F;">
+      <columns>
+          <TableColumn prefWidth="75.0" text="OrderID" />
+          <TableColumn prefWidth="88.20001220703125" text="Description" />
+          <TableColumn prefWidth="72.4000244140625" text="Time" />
+          <TableColumn prefWidth="65.20001220703125" text="Date" />
+          <TableColumn prefWidth="75.0" text="Status" />
+          <TableColumn prefWidth="75.0" text="Cashier" />
+          <TableColumn prefWidth="75.0" text="ChefID" />
+      </columns>
+    </TableView>
+    <Canvas fx:id="canvas" height="306.0" layoutX="36.0" layoutY="283.0" width="760.0" />
+</AnchorPane>
+</AnchorPane>
