@@ -8,19 +8,19 @@ public class Pizzeria
     private List<Cashier> cashiers;
     private List<Chef> chefs;
     private Menu menu;
-    private OrdersQueue ordersQueue;
+    private OrderQueue orderQueue;
     private Logger logger;
 
-    private Pizzeria(List<Cashier> cashiers, List<Chef> chefs, Menu menu, OrdersQueue ordersQueue, Logger logger)
+    private Pizzeria(List<Cashier> cashiers, List<Chef> chefs, Menu menu, OrderQueue ordersQueue, Logger logger)
     {
         this.cashiers = cashiers;
         this.chefs = chefs;
         this.menu = menu;
-        this.ordersQueue = ordersQueue;
+        this.orderQueue = orderQueue;
         this.logger = logger;
     }
 
-    public static Pizzeria getInstance(List<Cashier> cashiers, List<Chef> chefs, Menu menu, OrdersQueue ordersQueue, Logger logger)
+    public static Pizzeria getInstance(List<Cashier> cashiers, List<Chef> chefs, Menu menu, OrderQueue ordersQueue, Logger logger)
     {
         if (instance == null)
         {
