@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca7416ff-e142-47ca-8bb9-0f5b5bf562fa" name="Changes" comment="з новою версією джава 17, щоб не було помилок, все інше працює">
+    <list default="true" id="ca7416ff-e142-47ca-8bb9-0f5b5bf562fa" name="Changes" comment="packeg model">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/org/example/demo/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/org/example/demo/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2pGbfAPDJssjhImu1iBi5fLiiyF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,7 +52,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/!Politch/3_kurs/1_semestr/KPP/pizdit/pizzeria-simulator-server",
+    "last_opened_file_path": "D:/!Politch/3_kurs/1_semestr/KPP/command_project/project_kpp/demo/src/main/java/models",
     "settings.editor.selected.configurable": "preferences.fileTypes"
   }
 }]]></component>
@@ -92,12 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1732398874769</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="packeg model">
+      <option name="closed" value="true" />
+      <created>1732534035624</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732534035624</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="23.11 - 23:33" />
     <MESSAGE value="з новою версією джава 17, щоб не було помилок, все інше працює" />
-    <option name="LAST_COMMIT_MESSAGE" value="з новою версією джава 17, щоб не було помилок, все інше працює" />
+    <MESSAGE value="packeg model" />
+    <option name="LAST_COMMIT_MESSAGE" value="packeg model" />
   </component>
 </project>
