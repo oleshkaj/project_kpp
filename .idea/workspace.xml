@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca7416ff-e142-47ca-8bb9-0f5b5bf562fa" name="Changes" comment="23.11 - 23:33">
+    <list default="true" id="ca7416ff-e142-47ca-8bb9-0f5b5bf562fa" name="Changes" comment="з новою версією джава 17, щоб не було помилок, все інше працює">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/org/example/demo/Lab_pr.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/org/example/demo/Lab_pr.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/olesh/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Scene Builder/SceneBuilder.lnk",
+    "last_opened_file_path": "D:/!Politch/3_kurs/1_semestr/KPP/pizdit/pizzeria-simulator-server",
     "settings.editor.selected.configurable": "preferences.fileTypes"
   }
 }]]></component>
@@ -86,11 +84,20 @@
       <option name="project" value="LOCAL" />
       <updated>1732397632048</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="з новою версією джава 17, щоб не було помилок, все інше працює">
+      <option name="closed" value="true" />
+      <created>1732398874769</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732398874769</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="23.11 - 23:33" />
-    <option name="LAST_COMMIT_MESSAGE" value="23.11 - 23:33" />
+    <MESSAGE value="з новою версією джава 17, щоб не було помилок, все інше працює" />
+    <option name="LAST_COMMIT_MESSAGE" value="з новою версією джава 17, щоб не було помилок, все інше працює" />
   </component>
 </project>
