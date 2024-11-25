@@ -39,7 +39,7 @@ public class OrderQueue {
                 order.updateStatus(Status.IN_PROGRESS);
                 break;
             case "CANCELED":
-                order.updateStatus(Status.CANCELED);
+                order.updateStatus(Status.CANCELLED);
                 break;
             case "COMPLETED":
                 order.updateStatus(Status.COMPLETED);

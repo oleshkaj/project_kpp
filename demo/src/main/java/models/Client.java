@@ -15,5 +15,6 @@ class Client extends Person {
 
     public Order getOrder() {
         //TODO: дописати
+        return order;
     }
 }

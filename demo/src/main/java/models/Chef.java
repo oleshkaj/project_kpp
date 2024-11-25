@@ -33,10 +33,12 @@ class Chef extends Person implements IObserver {
 
     public boolean handleOrder(Order order) {
         //TODO: дописати
+        return true;
     }
 
     public boolean Return(Order order) {
         //TODO: дописати
+        return true;
     }
 
 }

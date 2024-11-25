@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca7416ff-e142-47ca-8bb9-0f5b5bf562fa" name="Changes" comment="packeg model">
+    <list default="true" id="ca7416ff-e142-47ca-8bb9-0f5b5bf562fa" name="Changes" comment="Sasha files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/models/Pizzeria.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/models/Pizzeria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/models/Chef.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/models/Chef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/models/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/models/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/models/CookingProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/models/CookingProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/models/IObserverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/models/IObserverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/models/OrderQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/models/OrderQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +60,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\!Politch\3_kurs\1_semestr\KPP\command_project\project_kpp\demo\src\main\java\models" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="project_kpp" />
@@ -104,13 +113,22 @@
       <option name="project" value="LOCAL" />
       <updated>1732534035624</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Sasha files">
+      <option name="closed" value="true" />
+      <created>1732535902432</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732535902432</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="23.11 - 23:33" />
     <MESSAGE value="з новою версією джава 17, щоб не було помилок, все інше працює" />
     <MESSAGE value="packeg model" />
-    <option name="LAST_COMMIT_MESSAGE" value="packeg model" />
+    <MESSAGE value="Sasha files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sasha files" />
   </component>
 </project>
