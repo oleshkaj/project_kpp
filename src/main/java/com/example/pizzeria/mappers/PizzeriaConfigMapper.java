@@ -1,4 +1,4 @@
-package com.example.pizzeria.config.mappers;
+package com.example.pizzeria.mappers;
 
 import com.example.pizzeria.PizzaMenuReader;
 import com.example.pizzeria.config.PizzeriaConfig;
